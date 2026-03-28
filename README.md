@@ -80,7 +80,7 @@ Then commit the generated files and push. GitHub will run your agents on the nex
 | **pr-review** | `pull_request.opened/synchronize` | Automated first-pass code review — correctness, security, quality, consistency |
 | **docs** | `issues.labeled:needs-docs` | Read related code, generate documentation, open a PR |
 | **release** | `push:tags/v*` | Generate changelog from commits since last tag, create GitHub release |
-| **stale** | `schedule:daily` | Warn issues/PRs inactive for 30 days, close after 7-day grace period |
+| **stale** | `schedule:daily` | Warn issues/PRs inactive for 30 days inactive + 7 day grace period, then close |
 | **first-timer** | `pull_request.opened` (FIRST_TIME) | Welcome first-time contributors with guidance and links |
 | **incident** | `issues.labeled:incident` | Assess severity (SEV1-3), post structured tracking comment, notify team |
 

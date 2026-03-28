@@ -10,7 +10,7 @@
       "author": { "name": "xiaolai" },
       "repository": "https://github.com/xiaolai/awful-for-claude",
       "license": "MIT",
-      "keywords": ["agent", "workflow", "github-actions", "automation", "labels"],
+      "keywords": ["agent", "workflow", "github-actions", "automation", "labels", "events"],
       "category": "developer-tools"
     }
   ]

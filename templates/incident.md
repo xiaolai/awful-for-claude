@@ -33,7 +33,7 @@ You are an incident response agent. When an issue is labeled `incident`, immedia
    - Look for a file matching the issue title keywords
    - Look for a generic `docs/runbooks/incident-response.md`
 5. Find the on-call team configuration:
-   - Check `.github/AWFUL.md` or `.github/awful-config.yml` for `oncall` or `incident_team` settings
+   - Check `.github/awful-config.yml` for `oncall` or `incident_team` settings
    - If not configured, use `@{repo-owner}` as fallback
 6. Post an incident tracking comment using the Output Format below
 7. If SEV1: post a second urgent comment mentioning the team handle with `@{team-handle}` to trigger GitHub notifications

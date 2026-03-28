@@ -29,7 +29,7 @@ You are a welcome agent. When a pull request is opened by a first-time contribut
 5. Check if there are CI checks configured (`.github/workflows/`) that might fail
 6. Compose a welcome comment (see Output Format)
 7. Add the `first-timer` label to the PR
-8. If the repo has a mentor assignment system (check `.github/AWFUL.md` for `mentor_pool`), assign one reviewer from the pool — otherwise do not assign anyone
+8. If the repo has a mentor assignment system (check `.github/awful-config.yml` for `mentor_pool`), assign one reviewer from the pool — otherwise do not assign anyone
 
 ## Constraints
 

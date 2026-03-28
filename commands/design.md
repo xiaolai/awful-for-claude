@@ -24,16 +24,17 @@ Check if awful has been initialized:
 
 #### Mode A: `--from-templates`
 
-1. Read `.claude/awful.local.md` to get the selected templates
-2. For each template, read its YAML frontmatter from `templates/`
-3. Build a blueprint automatically:
+1. **Guard**: Check that `.claude/awful.local.md` exists. If it does not exist, stop immediately and error with: "Run /awful:init first to select templates."
+2. Read `.claude/awful.local.md` to get the selected templates
+3. For each template, read its YAML frontmatter from `templates/`
+4. Build a blueprint automatically:
    - `agents:` — one entry per template, using template name as role
    - `routing:` — derived from template `triggers:` and `conditions:`
    - `labels:` — union of all `labels_required:` across templates, plus `awful:` state labels
    - `human_gates:` — for pr-review (merge), docs (PR merge), release (release approval)
    - `error_handling:` — from each template's `error_handling:` field
-4. Write the blueprint
-5. Show summary and offer to adjust
+5. Write the blueprint
+6. Show summary and offer to adjust
 
 #### Mode B: Interactive Design (default)
 
