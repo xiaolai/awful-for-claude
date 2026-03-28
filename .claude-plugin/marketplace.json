@@ -1,0 +1,17 @@
+{
+  "name": "xiaolai",
+  "owner": { "name": "xiaolai" },
+  "plugins": [
+    {
+      "name": "awful",
+      "source": { "source": "github", "repo": "xiaolai/awful-for-claude" },
+      "description": "Agent Workflow Framework Using Labels — design, generate, wire, simulate, and audit agent workflows driven by GitHub events",
+      "version": "0.1.0",
+      "author": { "name": "xiaolai" },
+      "repository": "https://github.com/xiaolai/awful-for-claude",
+      "license": "MIT",
+      "keywords": ["agent", "workflow", "github-actions", "automation", "labels"],
+      "category": "developer-tools"
+    }
+  ]
+}
