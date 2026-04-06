@@ -1,4 +1,5 @@
 ---
+name: architect
 description: |
   Design complete agent workflow systems from requirements. Interactive — proposes architecture, iterates with user, outputs a machine-readable blueprint.
   <example>

@@ -1,4 +1,5 @@
 ---
+name: map
 description: "Visualize event→workflow→agent routing as a mermaid diagram"
 allowed-tools: Read, Glob, Bash
 ---
