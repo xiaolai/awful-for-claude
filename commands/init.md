@@ -1,4 +1,5 @@
 ---
+name: init
 description: "Initialize awful for this repo — detect repo type, check gh-aw, select templates, create workflow directory"
 allowed-tools: Read, Write, Bash, Glob, AskUserQuestion
 ---

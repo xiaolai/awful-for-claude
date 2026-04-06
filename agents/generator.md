@@ -1,4 +1,5 @@
 ---
+name: generator
 description: |
   Generate workflow files from blueprints. Supports gh-aw markdown and GitHub Actions YAML output formats.
   <example>

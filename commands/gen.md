@@ -1,4 +1,5 @@
 ---
+name: gen
 description: "Generate workflow files from blueprint — outputs gh-aw markdown or GitHub Actions YAML"
 allowed-tools: Read, Write, Glob, Bash, Task
 ---

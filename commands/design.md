@@ -1,4 +1,5 @@
 ---
+name: design
 description: "Design an agent workflow system — define agents, events, routing, data flow, and quality gates interactively"
 argument-hint: "[--from-templates]"
 allowed-tools: Read, Write, Glob, Task, AskUserQuestion
