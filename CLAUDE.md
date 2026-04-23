@@ -50,3 +50,11 @@ v0.1: design (blueprint) → gen (workflow files) → map (visualization) → in
 - GitHub CLI (`gh`) installed
 - `ANTHROPIC_API_KEY` or `CLAUDE_CODE_OAUTH_TOKEN` as repo secret (for Actions)
 - Optional: `gh aw` extension for gh-aw format output
+
+## Install
+
+Pure markdown plugin — no build step. Install via:
+
+```
+claude plugin install awful@xiaolai --scope project
+```
