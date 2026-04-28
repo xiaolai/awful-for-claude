@@ -11,12 +11,12 @@
         "repo": "xiaolai/awful-for-claude"
       },
       "description": "Agent Workflow Framework Using Labels \u2014 design, generate, wire, simulate, and audit agent workflows driven by GitHub events",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/awful-for-claude",
-      "license": "MIT",
+      "license": "ISC",
       "keywords": [
         "agent",
         "workflow",

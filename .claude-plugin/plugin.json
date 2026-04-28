@@ -1,11 +1,11 @@
 {
   "name": "awful",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Agent Workflow Framework Using Labels \u2014 design, generate, wire, simulate, and audit agent workflows driven by GitHub events",
   "author": {
     "name": "xiaolai"
   },
-  "license": "MIT",
+  "license": "ISC",
   "keywords": [
     "agent",
     "workflow",

@@ -227,6 +227,6 @@ stale_grace_days: 14      # default: 7
 
 ## License
 
-MIT — Copyright 2026 xiaolai
+ISC — Copyright 2026 xiaolai
 
 Part of the [xiaolai Claude Code plugin collection](https://github.com/xiaolai/claude-plugin-marketplace).
